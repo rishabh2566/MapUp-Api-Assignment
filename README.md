@@ -32,18 +32,20 @@ node index.js
 - In Postman, Set authorisation to Basic Auth. Set User to 'test' and password to 'test'. See screenshot 5.
 - Upload Json in body of post request. (long-ls.json)
 
-* Screenshot 1 
+### Screenshots
+Screenshot 1 -
 The given json file returns an empty array as there are no point of intersections between the two linestrings;
-* Screenshot 5 - Setting authorisation to use api.
 
-* Screenshot 2 and 3
+Screenshot 5 - Setting authorisation to use api.
+
+Screenshot 2 and 3 - 
 We can see in the map visual that this is indeed true. The edges of the red line are the fixedlines(as end point of lines are close enough). 
 And the black line is the path. Since no edge lie on the black line. The path crossed none of the fixed lines.
 
-* Screenshot 4  [BONUS TASK]
+Screenshot 4  [BONUS TASK] -
 Compares of performance of improved algorithm.
 
-# OUTPUT
+### OUTPUT
 ```bash
 # Server listening on port 3000
 # PerformanceEntry {
